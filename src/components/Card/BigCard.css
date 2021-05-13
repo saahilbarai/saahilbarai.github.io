@@ -1,0 +1,64 @@
+.bigcardContainer {
+    overflow: hidden;
+    /* box-shadow: 0px 0px 15px -5px; */
+    background-color: white;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 95vw;
+    display: flex;
+}
+
+.bigcardContainerMargin {
+    overflow: hidden;
+    /* box-shadow: 0px 0px 15px -5px; */
+    background-color: white;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 95vw;
+    display: flex;
+}
+
+.bigcardContainerMargin:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px -5px;
+
+}
+
+.bigcardContainerMargin:hover img{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px -5px;
+
+}
+
+
+.bigcardContainer:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px -5px;
+
+}
+
+
+.bigcardContent {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+.bigcardContent h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+.bigcardTitle {
+    text-align: left;
+    margin-bottom: 0.5rem;
+}
+
+.bigcardBody {
+    text-align: left;
+}

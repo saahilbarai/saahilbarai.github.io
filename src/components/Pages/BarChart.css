@@ -1,0 +1,53 @@
+body {
+    font-size: 16px;
+  }
+  
+  .title {
+    font-size: 1.4em;
+    font-weight: 300;
+  }
+  
+  .bar-group .name-label {
+    text-anchor: end;
+    fill:white;
+    font-weight: 400;
+
+  }
+  
+  .bar-group .value-label {
+    text-anchor: end;
+    fill:white;
+    font-weight: 500;
+  }
+  
+  .container .bar-group {
+    transition: opacity 0.3s;
+  }
+  
+  /* Fade bars when the chart is hovered */
+  .container:hover .bar-group {
+    opacity: 0.3;
+  }
+  
+  /* But don't fade the hovered bar... */
+  .container .bar-group:hover {
+    opacity: 1;
+  }
+  
+  .container .bar-group:hover .name-label {
+    font-weight: 400;
+  }
+  
+  .container .bar-group:hover .value-label {
+    font-weight: 700;
+
+    /* font-size: 0.8em; */
+  }
+
+  @media screen and (max-width: 960px){
+      .container {
+        margin-left: 1px;
+        justify-content: left;
+      }
+    
+  }

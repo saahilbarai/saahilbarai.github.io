@@ -1,0 +1,45 @@
+.StatsDeck {
+    height: 100vh;
+    width: auto;
+    margin-left: 25vw;
+    margin-right: 25vw;
+    display: flexbox;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {display:none;}
+
+
+.plnText {
+    color: white;    
+}
+.name-label {
+    text-anchor: end;
+    font-weight: 300;
+    font-size: 1em;
+    fill:white;
+  }
+
+.ArtGallery {
+    display: flexbox;
+}  
+
+.Art {
+    height: 50%;
+    width: 50%;
+    border-radius: 2px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 960px){
+    .StatsDeck {
+        height: 100vh;
+        width: auto;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        display: flexbox;
+    }
+    
+}
+

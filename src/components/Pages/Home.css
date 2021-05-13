@@ -1,0 +1,68 @@
+.darkBg {
+    width: auto;
+    padding: 100px 0;
+    height: 200px;
+    overflow: hidden;
+    flex: 1;
+}
+
+.row {
+    margin-right: -35px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+}
+
+.textWrapper {
+    max-width: 540px;
+    padding-top: 0;
+    padding-bottom: 60px;
+}
+
+.mainTextHome {
+    color: white;
+    padding-left: 40px;
+    display: flex;
+    font-size: 4em; 
+}
+
+.homePara {
+    /* max-width: 450px; */
+    color: white;
+    padding-left: 40px;
+    display: flex;
+    font-size: 2em;
+}
+
+.loopedText {
+    color: #1054d4;
+    font-weight: bold;
+}
+
+.loopedTextSpecial {
+    color: #bf5700;
+    font-weight: bold;
+} 
+
+@media screen and (max-width: 960px){
+    .mainTextHome {
+        color: white;
+        padding-left: 25px;
+        padding-right: 25px;
+        display: flexbox;
+        font-size: 3em;
+    }
+    .homePara {
+        /* max-width: 450px; */
+        color: white;
+        padding-left: 25px;
+        display: flexbox;
+        font-size: 2em;
+    }
+}

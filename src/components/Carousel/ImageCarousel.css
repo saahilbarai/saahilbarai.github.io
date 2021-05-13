@@ -1,0 +1,49 @@
+.Carousel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.CarouselImage {
+    border-radius: 2px;
+    width: 42%;
+    height: 42%;
+    margin-left: 15%;
+    margin-top: 4%;
+    
+}
+
+.fa-arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 35%;
+    color: #1054d4;
+    z-index: 1;
+    cursor: pointer;
+    user-select: none;
+    font-size: 2rem;
+
+}
+
+.fa-arrow-left {
+    position: absolute;
+    top: 50%;
+    left: 4%;
+    color: #1054d4;
+    z-index: 1;
+    cursor: pointer;
+    user-select: none;
+    font-size: 2rem;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}

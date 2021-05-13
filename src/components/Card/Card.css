@@ -1,0 +1,90 @@
+.cardContainer {
+    width: 95vw;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 15px -5px; */
+    background-color: white;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.cardContainerMargin {
+    width: 95vw;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 15px -5px; */
+    background-color: white;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    display: inline-block;
+}
+
+.cardContainerMargin:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px -5px;
+
+}
+
+.cardContainerMargin:hover img{
+    transform: scale(1.01);
+
+}
+
+
+.cardContainer:hover {
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px -5px;
+
+}
+
+.cardContainer:hover img{
+    transform: scale(1.01);
+    box-shadow: 0px 0px 15px -5px;
+
+}
+
+.imgContainer {
+    overflow: hidden;
+}
+
+
+.cardContent {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+.cardContent h3,p {
+    margin: 0;
+    padding: 0;
+}
+
+.cardTitle {
+    margin-bottom: 0.5rem;
+}
+
+.cardButton {
+    justify-content: left;
+    display: flex;
+}
+
+.cardButton {
+    margin-bottom:0.75rem;
+    margin-left: 0.75rem;
+    padding: 0.5rem;
+    background-color: #1054d4;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    outline: none;
+    border-radius: 2px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.cardButton a {
+    text-decoration: none;
+    color: white;
+}
