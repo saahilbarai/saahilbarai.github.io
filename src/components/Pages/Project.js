@@ -97,9 +97,10 @@ class Project extends react.Component {
                     <h1 className= "plnText">Python 🐍</h1>
                     <img src = {process.env.PUBLIC_URL + '/snakepic.PNG'} className = 'projectPic'></img>
                     <h2 className = 'plnText'>Snake Game</h2>
-                    <ul className = 'plnText'>
+                    <ul className = 'listText'>
                         <li>Built a snake game using python and pygame</li>
                         <li>Inspired by the google snake game</li>
+                        <li>A fun introductory project into the possibilites of python</li>
                     </ul>
                 </div>
 
@@ -108,10 +109,9 @@ class Project extends react.Component {
                 <div className = 'projectEntry'>
                     <img src = {process.env.PUBLIC_URL + '/pongpic.PNG'} className = 'projectPic'></img>
                     <h2 className = 'plnText'>Pong Game</h2>
-                    <ul className = 'plnText'>
+                    <ul className = 'listText'>
                         <li>Built a pong game using python and pygame</li>
-                        <li>Created single player capabilities with a computer to play against</li>
-                        <li></li>
+                        <li>Players can play against the computer or against themselves</li>
                     </ul>
                 </div>  
                   
@@ -122,15 +122,27 @@ class Project extends react.Component {
                     <h1 className= "plnText">C++ 🖥️</h1>
                     <img src = {process.env.PUBLIC_URL + '/IMG_6987.jpg'} className = 'projectPic'></img>
                     <h2 className = 'plnText'>Medication Reminder</h2>
-                    <ul className = 'plnText'>
+                    <ul className = 'listText'>
                         <li>Built a cost effective medication reminder using an ESP-32S and Lego bricks</li>
-                        <li>Interfaced an LED inside the window to light up when registering consumption and an alarm that rings to remind you at the set time daily</li>
+                        <li>Interfaced an LED inside the window to light up when registering consumption and an alarm that rings at a set time daily</li>
                         <li>Authored a <a className = 'mediumLinks' href = 'https://saahil-barai.medium.com/medication-reminder-with-esp-32s-and-lego-bricks-d127d23ee4e1'>Medium article</a>  to guide others in making their own medication reminders </li>
 
                     </ul>
                 </div>
 
                 <br></br>
+
+                <div className = 'projectEntry'>
+                    <h1 className= "plnText">React ⚛️</h1>
+                    <h2 className = 'plnText'>Personal Website</h2>
+                    <ul className = 'plnText'>
+                        <li>Created a personal website to showcase my hobbies and experience using React</li>
+                        <li>Gained familiarity with CSS styling, React Router, and responsive design</li>
+                    </ul>
+                </div>
+
+                <br></br>
+
 
                 <br></br>
                 <br></br>

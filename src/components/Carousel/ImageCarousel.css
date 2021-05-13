@@ -3,15 +3,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    height: 450px;
 }
 
 .CarouselImage {
     border-radius: 2px;
     width: 42%;
     height: 42%;
-    margin-left: 15%;
-    margin-top: 4%;
+    margin-left: 100px;
+    margin-top: 10px;
     
 }
 
@@ -38,6 +38,10 @@
     font-size: 2rem;
 }
 
+.slide:first-of-type {
+    position: relative;
+}
+
 .slide {
     opacity: 0;
     transition-duration: 1s ease;
@@ -46,4 +50,50 @@
     opacity: 1;
     transition-duration: 1s;
     transform: scale(1.08);
+}
+
+
+@media screen and (max-width: 960px){
+
+    .Carousel {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 250px;
+    
+    }
+    .CarouselImage {
+        border-radius: 2px;
+        width: 42%;
+        height: 42%;
+        margin-left: 100px;
+        margin-top: 10px;
+        
+    }
+
+    .fa-arrow-right {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        color: #1054d4;
+        z-index: 1;
+        cursor: pointer;
+        user-select: none;
+        font-size: 2rem;
+    
+    }
+    
+    .fa-arrow-left {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        color: #1054d4;
+        z-index: 1;
+        cursor: pointer;
+        user-select: none;
+        font-size: 2rem;
+    }
+    
+
 }

@@ -22,8 +22,8 @@ class AboutMe extends react.Component {
                     spacing = '1'
                 />       */}
 
-                <h1 className= "AboutText">School</h1>
-                <h2 className = 'AboutText'>University of Texas at Austin 🤘</h2>
+                <h1 className= "AboutText">School 🤘</h1>
+                <h2 className = 'AboutText'>University of Texas at Austin</h2>
                 <h3 className = 'AboutText'>Electrical and Computer Engineering with a focus in Data Science and Information Processing - December 2021</h3>
                 <h3 className = 'AboutText'>Courses taken: </h3>
                 <ul className = 'AboutText'>
@@ -36,14 +36,14 @@ class AboutMe extends react.Component {
 
                 <br></br>
 
-                <h1 className= "AboutText">Work Experience</h1>
-                <h2 className = 'AboutText'>Visa Inc. 💳</h2>
+                <h1 className= "AboutText">Work Experience 💳💻</h1>
+                <h2 className = 'AboutText'>Visa Inc.</h2>
                 <h3 className = 'AboutText'>Software Engineer - Summer 2021</h3>
                 <ul className = 'AboutText'>
                     <li>Currently interning on the Stand-In Payment Processing Team</li>
                 </ul>
 
-                <h2 className = 'AboutText'>Hewlett-Packard 💻</h2>
+                <h2 className = 'AboutText'>Hewlett-Packard</h2>
                 <h3 className = 'AboutText'>Firmware Engineer - Summer 2020</h3>
                 <ul className = 'AboutText'>
                     <li>Assigned to a project on End Point Security Team to design and develop a software solution for the Thermal Engineers</li>

@@ -33,8 +33,8 @@ class BarChart extends react.Component {
         this.state = {
             data: [
                 { name: 'Python', value: 90 },
-                { name: 'Java', value: 70 },
-                { name: 'C and C++', value: 65 },
+                { name: 'Java', value: 75 },
+                { name: 'C and C++', value: 80 },
                 { name: 'React', value: 50 },
                 { name: 'Visual Basic', value: 65 }
               ]
