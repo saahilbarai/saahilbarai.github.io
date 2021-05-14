@@ -1,7 +1,7 @@
 import react from 'react'
 import Navbar from './components/Navbar/Navbar'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Link,
   Route,
   Switch,
@@ -20,7 +20,7 @@ class App extends react.Component {
   }
   render (){
   return <>
-          <Router>
+          <Router hashType = 'slash'>
             <Navbar />
             <Switch>
               <Route path='/' exact component =
