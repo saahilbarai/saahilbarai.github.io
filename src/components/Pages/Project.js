@@ -65,12 +65,27 @@ class Project extends react.Component {
                     spacing = '0'
                 />       */}
 
+                <div className = 'projectEntry'>
+                    <h1 className= "plnText">Artificial Intelligence 🧠</h1>
+                    <img src = {process.env.PUBLIC_URL + '/Capture5.PNG'} className = 'projectPic'></img>
+                    <h2 className = 'plnText'>Backyard Bird Classification with Fast AI</h2>
+                    <ul className = 'listText'>
+                        <li>Created a residual neural network to identify birds coming to eat in my backyard</li>
+                        <li>Achieved a 95% accuracy after optimizing the residual neural network - It is amazing how fast we can reach state of the art solutions and how rapidly the field of Artifical Intelligence is evolving</li>
+                        <li>Gained familiarity with the concept of transfer learning and the motivations behind skip connections in residual networks</li>
+                        <li>Authored a<a className = 'mediumLinks' href = 'https://saahil-barai.medium.com/backyard-bird-classification-with-fast-ai-280dd140e32f'> Medium article</a> with my findings and instructions on how to create a neural network of your own</li>
+                    </ul>
+                </div>
+
+                <br></br>
+
+
 
                 <div className = 'projectEntry'>
-                    <h1 className= "plnText">Machine Learning 🧠</h1>
+                    <h1 className= "plnText">Machine Learning 🤖</h1>
                     <h2 className = 'plnText'>Numerai Tournament</h2>
                     <ul className = 'plnText'>
-                        <li>Participating in an ongoing tournament where where you build machine learning models on abstract financial data to predict the stock market.</li>
+                        <li>Participating in an ongoing tournament where where you build machine learning models on abstract financial data to predict the stock market</li>
                         <li>Submiting a model every week to conduct exploratory analysis to find machine learning techniques that work well on live financial data</li>
                         <li>Gained familiarity with regression algorithms, particularly those found in the CatBoost, XGBoost, and LightGBM libraries</li>
                         <li>Follow my ranking and progress in the tournament <a className = 'mediumLinks' href = 'https://numer.ai/saahil'>here</a></li>

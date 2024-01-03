@@ -9,7 +9,6 @@ class Home extends react.Component {
     constructor () {
         super()
         this.state = {
-            name: "I am a "
         }
     }
 
@@ -26,15 +25,16 @@ class Home extends react.Component {
                         <div className = "textWrapper">
                             <div className = "lines">
                                 <h1 className = 'mainTextHome'>Hi, I'm Saahil Barai.</h1>
-                                <p className = 'homePara'>I am a&nbsp;
-                                    <TextLoop>
-                                        <span className= "loopedText">student</span>
-                                        <span className= "loopedText">artist</span>
-                                        <span className= "loopedText">reader</span>
-                                        <span className= "loopedText">tech enthusiast</span>
-                                        <span className= "loopedText">data scientist</span>
-                                        <span className= "loopedText">runner</span>
-                                        <span className= "loopedTextSpecial">longhorn</span>
+                                <p className = 'homePara'>I am&nbsp;
+                                    <TextLoop interval={1600}>
+                                        <span className= "loopedText">a student</span>
+                                        <span className= "loopedText">an artist</span>
+                                        <span className= "loopedText">a reader</span>
+                                        <span className= "loopedText">a writer</span>
+                                        <span className= "loopedText">a tech enthusiast</span>
+                                        <span className= "loopedText">a data scientist</span>
+                                        <span className= "loopedText">a runner</span>
+                                        <span className= "loopedTextSpecial">a longhorn</span>
                                     </TextLoop>{' '}.
                                 </p>
                             </div>

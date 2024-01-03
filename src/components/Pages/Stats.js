@@ -59,6 +59,8 @@ class Stats extends react.Component {
                     <li>Idea Man by Paul Allen</li>
                     <li>Bad Blood: Secrets and Lies in a Silicon Valley Startup by John Carreyrou</li>
                     <li>The Lean Startup by Eric Ries</li>
+                    <li>Skin in the Game by Nassim Nicholas Taleb</li>
+                    <li>Americana by Bhu Srinivasan</li>
                 </ul>
 
                 <br></br>
@@ -66,9 +68,16 @@ class Stats extends react.Component {
                 <h1 className= "plnText">Podcasts 🎧</h1>
                 <h2 className = 'plnText'>Here are some of my favorite podcasts!</h2>
                 <ul className = 'plnText'>
-                    <li>The All-In Podcast with Chamath, Jason, Sacks amd Friedberg</li>
-                    <li>Snacks Daily with Robinhood Financial</li>
-                    <li>The ARK Podcast: FYI - For Your Innovation</li>
+                    <li>The All-In Podcast with Chamath, Jason, Sacks and Friedberg</li>
+                </ul>
+
+                <br></br>
+
+                <h1 className= "plnText">Travel ✈️</h1>
+                <h2 className = 'plnText'>Here are some of the places I have visted this year!</h2>
+                <ul className = 'plnText'>
+                    <li>Chicago - Definitely the coolest city I have visited from an architechtural standpoint plus the pizza was great</li>
+                    <li>The National Parks of Utah - I would highly recommend visiting Zion National Park and Bryce National Park</li>
                 </ul>
 
                 <br></br>

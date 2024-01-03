@@ -59,29 +59,30 @@
     }
 
     .nav-menu {
-        /* display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 370px;
-        position: absolute;
-        top: 80px;
-        right: 100%;
-        opacity: 1;
-        transition: all 0.5s ease; */
-        display: none;
-    }
-
-    .nav-menu.active {
         display: flex;
         flex-direction: column;
         width: 100%;
         height: 370px;
         position: absolute;
         top: 80px;
-        background: #262e4a;
-        /* left: 0%; */
+        left: -120%;
         opacity: 1;
-        /* transition: all 0.5 ease; */
+        transition: all 0.5s ease;
+        /* display: none; */
+        
+    }
+
+    .nav-menu.active {
+        /* display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 370px;
+        position: absolute;
+        top: 80px; */
+        background: #262e4a;
+        left: 0%; 
+        opacity: 1;
+        transition: all 0.5 ease; 
         margin: 0; /* To remove default bottom margin */ 
         padding: 0; /* To remove default left padding */
         z-index: 1;
