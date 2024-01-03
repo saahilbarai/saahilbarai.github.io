@@ -9,7 +9,7 @@ class Project extends react.Component {
     }
     
     componentDidMount() {
-        document.body.style.backgroundColor = "#1c2237"
+        document.body.style.backgroundColor = "#000000"
     }
 
     render() {

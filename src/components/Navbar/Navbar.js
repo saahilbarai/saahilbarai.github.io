@@ -19,7 +19,6 @@ class Navbar extends react.Component {
     render() {
         return (
             <nav className="NavbarItems">
-                <a className="navbar-Logo" href = '/'><img src = {signature}/></a>
                 <div className="menu-icon" onClick = {this.handleClick}>
                     <i className = {this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>

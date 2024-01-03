@@ -15,7 +15,7 @@ class Stats extends react.Component {
     }
 
     componentDidMount() {
-        document.body.style.backgroundColor = "#1c2237"
+        document.body.style.backgroundColor = "#000000"
     }
 
     render() {
@@ -63,22 +63,6 @@ class Stats extends react.Component {
                     <li>Americana by Bhu Srinivasan</li>
                 </ul>
 
-                <br></br>
-
-                <h1 className= "plnText">Podcasts 🎧</h1>
-                <h2 className = 'plnText'>Here are some of my favorite podcasts!</h2>
-                <ul className = 'plnText'>
-                    <li>The All-In Podcast with Chamath, Jason, Sacks and Friedberg</li>
-                </ul>
-
-                <br></br>
-
-                <h1 className= "plnText">Travel ✈️</h1>
-                <h2 className = 'plnText'>Here are some of the places I have visted this year!</h2>
-                <ul className = 'plnText'>
-                    <li>Chicago - Definitely the coolest city I have visited from an architechtural standpoint plus the pizza was great</li>
-                    <li>The National Parks of Utah - I would highly recommend visiting Zion National Park and Bryce National Park</li>
-                </ul>
 
                 <br></br>
 
