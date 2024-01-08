@@ -1,5 +1,5 @@
 .NavbarItems {
-    background: linear-gradient(180deg, #000000 0%, #000000 100%);
+    background: #000000;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -7,6 +7,7 @@
     font-size: 1.2rem;
     position: sticky;
     top: 0;
+    font-weight: 520;
 }
 
 
@@ -21,95 +22,35 @@
     margin-right: 2rem;
 }
 
+
 .nav-links {
     color: white;
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
+.nav-links-clicked {
+    color: white;
+    background-color: #1054d4;
+    border-radius: 4px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
 .nav-links:hover {
     background-color: #1054d4;
     border-radius: 4px;
-    transition: all 0.2s ease-out;   
+    transition: all 0.3s ease-out;   
 }
 
-.fa-bars {
-    color: white;
-}
-
-.menu-icon {
-    display: none;
-}
 
 @media screen and (max-width: 960px){
     .NavbarItems {
-        position: relative;
-    }
-
-    .nav-menu {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 370px;
-        position: absolute;
-        top: 80px;
-        left: -120%;
-        opacity: 1;
-        transition: all 0.5s ease;
-        /* display: none; */
-        
-    }
-
-    .nav-menu.active {
-        /* display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 370px;
-        position: absolute;
-        top: 80px; */
-        background: #262e4a;
-        left: 0%; 
-        opacity: 1;
-        transition: all 0.5 ease; 
-        margin: 0; /* To remove default bottom margin */ 
-        padding: 0; /* To remove default left padding */
-        z-index: 1;
-    }
-    .nav-links {
-        text-align: center;
-        padding: 0rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
-        /* left: -40%; */
-        position: relative;
-        width: 100%;
-        display: table;
-    }
-
-    .nav-links:hover {
-        background-color: #1054d4;
-        border-radius: 0;
-    }
-
-    .navbar-Logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(-10%,-20%);
-    }
-
-    .menu-icon {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        transform: translate(-100%,60%);
-        font-size: 1.8rem;
-        cursor: pointer;
-    }
-
-    .fa-times {
-        color: white;
-        font-size: 2rem;
-    }
+    font-size: 1.0rem;
+	}
+	
+	.nav-menu {
+	column-gap:5px;
+	}
 }

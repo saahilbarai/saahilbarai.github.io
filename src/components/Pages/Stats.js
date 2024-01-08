@@ -1,5 +1,6 @@
 import react from 'react'
 import BigCard from '../Card/BigCard'
+import Card from '../Card/Card'
 import './Stats.css'
 import BarChart from './BarChart'
 import Art1 from './Art1.jpg'
@@ -21,32 +22,11 @@ class Stats extends react.Component {
     render() {
         return (
             <div className = "StatsDeck">
-                {/* <BigCard 
-                    title = "Books"
-                    body = "Here are some of my favorite books I have read this year!"
-                    spacing = '1'
-                />
-                <BigCard 
-                    title = "Podcasts"
-                    body = "Here are some of my favorite podcasts I have listened to this year!"
-                    spacing = '0'
-                />
-                <BigCard 
-                    title = "Travel"
-                    body = "Here are some of my favorite places I have visited this year!"
-                    spacing = '0'
-                /> */}
+            
 
                 <h1 className= "plnText">Programming 👨‍💻</h1>
                 <h2 className = 'plnText'>Here are the programming languages I am proficient in!</h2>
-                {/* <ul className = 'plnText'>
-                    <li>Python</li>
-                    <li>Java</li>
-                    <li>C and C++</li>
-                    <li>React and Node.js</li>
-                    <li>Visual Basic</li>
-                    <li>React and Node.js</li>
-                </ul> */}
+                
                 <BarChart />
 
                 <br></br>

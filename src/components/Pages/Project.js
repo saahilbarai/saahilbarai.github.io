@@ -15,59 +15,11 @@ class Project extends react.Component {
     render() {
         return (
             <div className='trial'>
-                {/* <Card
-                    id = '1' 
-                    title='LoRaWAN'
-                    imageUrl='https://mdbcdn.b-cdn.net/img/new/standard/nature/184.jpg'
-                    body='A study on LoRaWAN and a sample home use case.'
-                    spacing = '1'
-                />
-                <Card 
-                    id = '2'
-                    title='Medicine Reminder'
-                    imageUrl='https://mdbcdn.b-cdn.net/img/new/standard/nature/184.jpg'
-                    body='A medicine reminder made with an ESP-32S and Lego bricks.'
-                    spacing = '0'
-                />
-                <Card 
-                    id = '3'
-                    title='NumerAi'
-                    imageUrl='https://mdbcdn.b-cdn.net/img/new/standard/nature/184.jpg'
-                    body='A algorithm created to trade stocks on the NumerAi platform.'
-                    spacing = '0'
-                />
-                <Card 
-                    id = '4'
-                    title='Personal Website'
-                    imageUrl='https://mdbcdn.b-cdn.net/img/new/standard/nature/184.jpg'
-                    body='this is a test card'
-                    spacing = '0'
-                />
-                <Card 
-                    id = '5'                    
-                    title='card title'
-                    imageUrl='https://mdbcdn.b-cdn.net/img/new/standard/nature/184.jpg'
-                    body='this is a test card'
-                    spacing = '0'
-                />
-                <Card 
-                    id = '6'
-                    title='card title'
-                    imageUrl='https://mdbcdn.b-cdn.net/img/new/standard/nature/184.jpg'
-                    body='this is a test card'
-                    spacing = '0'
-                />
-                <Card 
-                    id = '7'
-                    title='card title'
-                    imageUrl='https://mdbcdn.b-cdn.net/img/new/standard/nature/184.jpg'
-                    body='this is a test card'
-                    spacing = '0'
-                />       */}
-
+                
                 <div className = 'projectEntry'>
-                    <h1 className= "plnText">Artificial Intelligence 🧠</h1>
+                    <h1 className= "plnText">Artificial Intelligence</h1>
                     <img src = {process.env.PUBLIC_URL + '/Capture5.PNG'} className = 'projectPic'></img>
+
                     <h2 className = 'plnText'>Backyard Bird Classification with Fast AI</h2>
                     <ul className = 'listText'>
                         <li>Created a residual neural network to identify birds coming to eat in my backyard</li>
@@ -82,9 +34,9 @@ class Project extends react.Component {
 
 
                 <div className = 'projectEntry'>
-                    <h1 className= "plnText">Machine Learning 🤖</h1>
+                    <h1 className= "plnText">Machine Learning</h1>
                     <h2 className = 'plnText'>Numerai Tournament</h2>
-                    <ul className = 'plnText'>
+                    <ul className = 'listText'>
                         <li>Participating in an ongoing tournament where where you build machine learning models on abstract financial data to predict the stock market</li>
                         <li>Submiting a model every week to conduct exploratory analysis to find machine learning techniques that work well on live financial data</li>
                         <li>Gained familiarity with regression algorithms, particularly those found in the CatBoost, XGBoost, and LightGBM libraries</li>
@@ -95,8 +47,9 @@ class Project extends react.Component {
                 <br></br>
 
                 <div className = 'projectEntry'>
-                    <h1 className= "plnText">LoRaWAN 📡</h1>
+                    <h1 className= "plnText">LoRaWAN</h1>
                     <img src = {process.env.PUBLIC_URL + '/IMG_6948.jpg'} className = 'projectPic'></img>
+
                     <h2 className = 'plnText'>LoRaWAN Ultrasonic Broadcast Node</h2>
                     <ul className = 'listText'>
                         <li>Built a LoRa-based node using the Dragino shield for LoRa devices, an HC-SR04 ultrasonic sensor and an Arduino Uno</li>
@@ -104,12 +57,13 @@ class Project extends react.Component {
                         <li>Incorporated data storage to keep a record of sensor uplink data using an AWS IoT Core integration and DynamoDB</li>
                         <li>Authored a <a className = 'mediumLinks' href = 'https://saahil-barai.medium.com/the-power-of-lorawan-38ab2c329af'>Medium article</a>  covering my findings and detailing the processes used to create the broadcast node </li>
                     </ul>
+
                 </div>
 
                 <br></br>
 
                 <div className = 'projectEntry'>
-                    <h1 className= "plnText">Python 🐍</h1>
+                    <h1 className= "plnText">Python</h1>
                     <img src = {process.env.PUBLIC_URL + '/snakepic.PNG'} className = 'projectPic'></img>
                     <h2 className = 'plnText'>Snake Game</h2>
                     <ul className = 'listText'>
@@ -134,21 +88,20 @@ class Project extends react.Component {
 
                 
                 <div className = 'projectEntry'>
-                    <h1 className= "plnText">C++ 🖥️</h1>
+                    <h1 className= "plnText">C++</h1>
                     <img src = {process.env.PUBLIC_URL + '/IMG_6987.jpg'} className = 'projectPic'></img>
                     <h2 className = 'plnText'>Medication Reminder</h2>
                     <ul className = 'listText'>
                         <li>Built a cost effective medication reminder using an ESP-32S and Lego bricks</li>
                         <li>Interfaced an LED inside the window to light up when registering consumption and an alarm that rings at a set time daily</li>
                         <li>Authored a <a className = 'mediumLinks' href = 'https://saahil-barai.medium.com/medication-reminder-with-esp-32s-and-lego-bricks-d127d23ee4e1'>Medium article</a>  to guide others in making their own medication reminders </li>
-
                     </ul>
                 </div>
 
                 <br></br>
 
                 <div className = 'projectEntry'>
-                    <h1 className= "plnText">React ⚛️</h1>
+                    <h1 className= "plnText">React</h1>
                     <h2 className = 'plnText'>Personal Website</h2>
                     <ul className = 'plnText'>
                         <li>Created a personal website to showcase my hobbies and experience using React</li>

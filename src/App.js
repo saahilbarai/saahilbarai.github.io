@@ -9,7 +9,7 @@ import {
 import Home from './components/Pages/Home';
 import Project from './components/Pages/Project';
 import AboutMe from './components/Pages/AboutMe';
-import Stats from './components/Pages/Stats'
+import Work from './components/Pages/Work'
 
 class App extends react.Component {
   constructor () {
@@ -29,8 +29,8 @@ class App extends react.Component {
               {Project} />
               <Route path='/About' exact component = 
               {AboutMe} />
-              <Route path='/Hobbies' exact component = 
-              {Stats} />
+              <Route path='/Work' exact component = 
+              {Work} />
             </Switch>
           </Router>
         </>

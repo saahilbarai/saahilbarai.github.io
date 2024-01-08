@@ -1,4 +1,4 @@
-.AboutDeck {
+.WorkBody {
     height: 100vh;
     width: auto;
     margin-left: 25vw;
@@ -6,12 +6,27 @@
     display: flexbox;
 }
 
-.AboutText {
-    color: white;    
+::-webkit-scrollbar {display:none;}
+
+
+.WorkText {
+    color: white; 
+  
+}
+
+.ToolText {
+  display: inline-block;
+  background-color: grey;
+  border-radius: 8px;
+  padding: 5px;
+  color: white;
+  margin: 4px; 
+  font-weight: 500;
+
 }
 
 @media screen and (max-width: 960px){
-    .AboutDeck {
+    .WorkBody {
         height: 100vh;
         width: auto;
         margin-left: 5vw;
