@@ -20,7 +20,6 @@ class Work extends react.Component {
     }
 
 
-
     render() {
         return (
             <div className = 'WorkBody'>
